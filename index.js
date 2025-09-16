@@ -1,6 +1,7 @@
 const cheerio = require("cheerio");
 const axios = require("axios");
 const randomUseragent = require("random-useragent");
+const { URLSearchParams } = require("url");
 
 // Utility functions
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
